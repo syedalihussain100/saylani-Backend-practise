@@ -20,9 +20,11 @@ const members = [
   },
 ];
 
+//Get All Members
 app.get("/api/members", (req,res) => {
   res.json(members);
 });
+
 // app.get("/", (req, res) => {
 //   res.sendFile(path.join(__dirname, "public", "index.html"));
 // });
